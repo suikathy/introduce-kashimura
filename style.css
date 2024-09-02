@@ -1,0 +1,153 @@
+@import url("./reset.css");
+li{
+    list-style: none;
+}
+
+
+header{
+    margin:1.5% 1.5% 1.5% 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.myname{
+    font-size: 40px;
+    font-family: major mono display;
+    width: 30vw;
+
+}
+
+.headersns{
+    display: flex;
+    justify-content: end;
+    flex-direction: row;
+}
+
+.headersns li{
+    margin-left: 8%;
+}
+
+.headernaviul li{
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 8%;
+}
+
+.headernaviul{
+    display: flex;
+    justify-content: end;
+}
+
+.headerright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.headerhome{
+    font-weight: bold;
+}
+
+
+.homekeyboard{
+    width: 100vw;
+    margin-bottom: 4%;
+}
+
+.homemyname{
+    font-size: 70px;
+    font-family: major mono display;
+    writing-mode: vertical-lr;  
+    transform:rotate(-180deg); 
+    margin-bottom: 2%;
+}
+    
+.homeprofile,.homefavorite{
+    font-family: inter;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 8%;
+}
+
+.homeprofilebun,.homefavoritebun{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: inter;
+    margin-bottom: 10%;
+}
+
+.favorite,.profile{
+    text-align: center;
+}
+
+.indexunder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.indexprofilefavorite{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around ;
+    width: 90vw;
+}
+
+.indexyorushika,.hitomoshipose{
+    margin-bottom: 4%;
+}
+
+.seemore{
+    background-color: black;
+    color: white;
+    font-family: inter;
+    font-size: 20px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px; 
+    margin-bottom: 2%;
+}
+
+hr{
+    height: 1px;
+    background-color: rgb(214, 214, 214);
+    margin: 0 5% 1% 5%;
+}
+
+.footer{
+    margin:1.5% 1.5% 1.5% 1.5%;
+}
+
+.footernaviul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-bottom: 3%;
+}
+
+.footernaviul li{
+    font-family: inter;
+    font-size: 20px;
+    margin-left: 4%;
+    border-bottom: solid 2px black;
+}
+
+.footerbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.footersns{
+    display: flex;
+    flex-direction: row;
+    max-width: 30vw;
+}
+
+.footersns li{
+    margin-left: 30px;
+}
